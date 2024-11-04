@@ -1,5 +1,6 @@
 ## MARLIN
 
+**M**ethylation- and **A**I-guided **R**apid **L**eukemia Subtype **In**ference
 
 ## Installation
 
