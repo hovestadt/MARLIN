@@ -21,6 +21,7 @@ options(scipen = 999)
 library(doParallel)
 library(foreach)
 library(data.table)
+library(openxlsx)
 library(keras)
 
 # load Illumina array probes names
@@ -64,7 +65,7 @@ ONT_sample_for_pred.mtx <- do.call(rbind, ONT_sample_for_pred.list)
 pred <- model %>% predict(ONT_sample_for_pred.mtx)
 
 # load annotation
-class_anno <- openxlsx::read.xlsx("Methylation_classes_annotation.xlsx")
+class_anno <- read.xlsx("Methylation_classes_annotation.xlsx")
 
 # set rownames and colnames
 rownames(pred) <- names(ONT_sample_for_pred.list)
