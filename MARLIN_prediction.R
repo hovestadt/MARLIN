@@ -24,7 +24,7 @@ library(data.table)
 library(keras)
 
 # load Illumina array probes names
-load("/hovestadtlab/salvo/ONT/Pilot_Samples/nn/240519/betas_names.RData")
+load("betas_names.RData")
 
 # list files with the methylation calls
 dir <- list.files("/", pattern="*.bed", recursive=TRUE, full.names = TRUE)
@@ -55,7 +55,7 @@ stopImplicitCluster()
 
 
 # load MARLIN model
-model <- load_model_hdf5("nn.model.hdf5")
+model <- load_model_hdf5("marlin_v1.model.hdf5")
 
 # convert to matrix
 ONT_sample_for_pred.mtx <- do.call(rbind, ONT_sample_for_pred.list)
