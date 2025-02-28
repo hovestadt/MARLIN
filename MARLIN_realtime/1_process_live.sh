@@ -15,6 +15,6 @@ if samtools quickcheck $1; then
 	echo "$(date) Predict"
 	Rscript --vanilla $SCRIPT_DIR/3_marlin_predictions_live.R $1 $SCRIPT_DIR/files/marlin_v1.features.RData $SCRIPT_DIR/files/marlin_v1.model.hdf5 $SCRIPT_DIR/files/Methylation_classes_annotation.xlsx
 	echo "$(date) Plot"
-	Rscript --vanilla $SCRIPT_DIR/4_plot_live.R $1 $SCRIPT_DIR $SCRIPT_DIR/files/Methylation_classes_annotation.xlsx
+	Rscript --vanilla $SCRIPT_DIR/4_plot_live2.R $1 $SCRIPT_DIR $SCRIPT_DIR/files/Methylation_classes_annotation.xlsx
 	echo "$(date) Finish!"
 fi
