@@ -4,7 +4,9 @@
 
 ## Installation
 
-Get the repository: `git clone https://github.com/hovestadt/MARLIN`
+Get the repository:
+
+`git clone https://github.com/hovestadt/MARLIN`
 
 ## Requirements
 
@@ -26,5 +28,7 @@ Usage (specific CUDA device 1): `CUDA_VISIBLE_DEVICES=1 Rscript MARLIN_predictio
 
 ## Real-time classification
 
-[link to real-time folder](MARLIN_realtime)
+MARLIN can be used to generate methylation class predictions in real-time during live basecalling. Real-time script waits for bam files and it processes them as they are produced. The files are expected to be from the same sample and they are processed cumulatively.
+
+For details: [go to real-time folder](MARLIN_realtime)
 
