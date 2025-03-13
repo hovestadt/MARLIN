@@ -23,3 +23,8 @@ Usage (specific CUDA device 1): `CUDA_VISIBLE_DEVICES=1 Rscript MARLIN_training.
 ## Prediction
 
 Usage (specific CUDA device 1): `CUDA_VISIBLE_DEVICES=1 Rscript MARLIN_prediction.R`
+
+## Real-time classification
+
+[link to real-time folder](README.txt)
+
