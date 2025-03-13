@@ -33,7 +33,7 @@ The official Oxford Nanopore Technologies tool to extract modifications [modkit]
 
 MARLIN can be used to generate methylation class predictions in real-time during live basecalling. Real-time script waits for bam files and it processes them as they are produced. The files are expected to be from the same sample and they are processed cumulatively.
 
-For details: [go to real-time folder](MARLIN_realtime)
+For details: [go to the real-time folder](MARLIN_realtime)
 
 ## Training
 
