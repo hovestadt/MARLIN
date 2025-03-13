@@ -8,6 +8,8 @@ Get the repository:
 
 `git clone https://github.com/hovestadt/MARLIN`
 
+Download [MARLIN](https://www.dropbox.com/scl/fi/d6ctg1fq5iadf6457vnx9/marlin_v1.model.hdf5?rlkey=xphliojewiip9jj3r5nybhg4q&st=3yyspo14&dl=0) (trained model) and place it inside the folder [files](MARLIN_realtime/files)
+
 ## Requirements
 
 R (4.1.3)
