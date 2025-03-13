@@ -20,7 +20,7 @@ data.table (1.14.2)
 doParallel (1.0.17)
 foreach (1.5.2)
 
-Install the official Oxford Nanopore Technologies tool to extract modifications [modkit](https://github.com/nanoporetech/modkit)
+The official Oxford Nanopore Technologies tool to extract modifications [modkit](https://github.com/nanoporetech/modkit)
 
 ## Real-time classification
 
