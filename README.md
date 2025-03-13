@@ -26,5 +26,5 @@ Usage (specific CUDA device 1): `CUDA_VISIBLE_DEVICES=1 Rscript MARLIN_predictio
 
 ## Real-time classification
 
-[link to real-time folder](README.txt)
+[link to real-time folder](MARLIN_realtime)
 
