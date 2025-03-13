@@ -2,6 +2,10 @@
 
 **M**ethylation- and **A**I-guided **R**apid **L**eukemia Subtype **In**ference
 
+MARLIN is a deep neural network model for methylation-based Acute Leukemia classification from sparse DNA methylation profiles.
+
+For more information please refer to our paper.
+
 ## Installation
 
 Get the repository:
