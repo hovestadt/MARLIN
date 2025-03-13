@@ -20,6 +20,12 @@ foreach (1.5.2)
 
 Install the official Oxford Nanopore Technologies tool to extract modifications [modkit](https://github.com/nanoporetech/modkit)
 
+## Real-time classification
+
+MARLIN can be used to generate methylation class predictions in real-time during live basecalling. Real-time script waits for bam files and it processes them as they are produced. The files are expected to be from the same sample and they are processed cumulatively.
+
+For details: [go to real-time folder](MARLIN_realtime)
+
 ## Training
 
 Usage (specific CUDA device 1): `CUDA_VISIBLE_DEVICES=1 Rscript MARLIN_training.R`
@@ -27,10 +33,4 @@ Usage (specific CUDA device 1): `CUDA_VISIBLE_DEVICES=1 Rscript MARLIN_training.
 ## Prediction
 
 Usage (specific CUDA device 1): `CUDA_VISIBLE_DEVICES=1 Rscript MARLIN_prediction.R`
-
-## Real-time classification
-
-MARLIN can be used to generate methylation class predictions in real-time during live basecalling. Real-time script waits for bam files and it processes them as they are produced. The files are expected to be from the same sample and they are processed cumulatively.
-
-For details: [go to real-time folder](MARLIN_realtime)
 
