@@ -33,7 +33,7 @@ pred <- model %>% predict(t(matrix(ONT_sample_for_pred)))
 
 # load annotation
 class_anno <- read.xlsx(args[4])
-class_anno[order(class_anno$model_id), ]
+class_anno <- class_anno[order(class_anno$model_id), ]
 
 colnames(pred) <- class_anno$class_name_current
 
