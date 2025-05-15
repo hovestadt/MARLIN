@@ -39,7 +39,7 @@ For details: [go to the real-time folder](MARLIN_realtime)
 
 The webapp shinyMARLIN allows users to upload genome-wide methylation calls to generate Acute Leukemia methylation class predictions.
 
-Learn more about [shinyMARLIN] (shinyMARLIN/README.md)
+Learn more about [shinyMARLIN](shinyMARLIN/README.md)
 
 ## Training
 
