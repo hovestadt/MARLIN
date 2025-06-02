@@ -12,7 +12,7 @@ Get the repository:
 
 `git clone https://github.com/hovestadt/MARLIN`
 
-Download [MARLIN](https://www.dropbox.com/scl/fi/d6ctg1fq5iadf6457vnx9/marlin_v1.model.hdf5?rlkey=xphliojewiip9jj3r5nybhg4q&st=3yyspo14&dl=0) (trained model)
+Download [MARLIN](https://zenodo.org/records/15565404?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImZhOGI3ZmNmLTdhN2UtNGUyMC1hODliLTFjNWJkYmQ3Njg4YiIsImRhdGEiOnt9LCJyYW5kb20iOiJkMjgzMTAxYzQ3NmNlZGZmNDIyOTAyMWUzNDU0NDA3MSJ9.wdFZUVpWxvIFmzETC3TeM10JyPslr7IZmQBYMmE3-cZVV7jtNuORqdMte2He-2376ro9n6_kZ3hAhJK-JCLGfw) (trained model)
 and the human genome assembly [hg19](http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
 
 Place them inside the folder [files](MARLIN_realtime/files)
