@@ -35,7 +35,7 @@ MARLIN can be used to generate methylation class predictions in real-time during
 
 For details: [go to the real-time folder](MARLIN_realtime)
 
-## shinyMARLIN
+## shinyMARLIN (currently in beta version!)
 
 The webapp shinyMARLIN allows users to upload genome-wide methylation calls to generate Acute Leukemia methylation class predictions.
 
