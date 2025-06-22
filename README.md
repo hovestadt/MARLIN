@@ -17,6 +17,8 @@ and the human genome assembly [hg19](http://hgdownload.soe.ucsc.edu/goldenPath/h
 
 Place them inside the folder [files](MARLIN_realtime/files)
 
+hg38 and t2t human genome assemblies are now supported, please find probes coordinates in [files](MARLIN_realtime/files) and change the reference accordingly.
+
 ## Requirements
 
 R (4.1.3)
