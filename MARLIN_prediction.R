@@ -66,7 +66,8 @@ pred <- model %>% predict(ONT_sample_for_pred.mtx)
 
 # load annotation
 class_anno <- read.xlsx("Methylation_classes_annotation.xlsx")
-
+class_anno <- class_anno[order(class_anno$model_id), ]
+                                    
 # set rownames and colnames
 rownames(pred) <- names(ONT_sample_for_pred.list)
 colnames(pred) <- class_anno$Methylation.class
