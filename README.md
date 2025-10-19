@@ -4,7 +4,7 @@
 
 MARLIN is a deep neural network model for DNA methylation-based Acute Leukemia classification from sparse DNA methylation profiles.
 
-For more information please refer to our paper.
+For more information please refer to our [paper](https://www.nature.com/articles/s41588-025-02321-z). 
 
 ## Installation
 
