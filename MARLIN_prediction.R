@@ -25,10 +25,10 @@ library(openxlsx)
 library(keras)
 
 # load Illumina array probes names
-load("betas_names.RData")
+load("MARLIN_realtime/files/marlin_v1.features.RData")
 
 # list files with the methylation calls
-dir <- list.files("/", pattern="*.bed", recursive=TRUE, full.names = TRUE)
+dir <- list.files(".", pattern="*.bed", recursive=TRUE, full.names = TRUE)
 
 # read files in parallel
 detectCores()
