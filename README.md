@@ -57,5 +57,9 @@ Usage (specific CUDA device 1): `CUDA_VISIBLE_DEVICES=1 Rscript MARLIN_training.
 
 ## Prediction
 
+Input bed file format: chromosome, start, end, methylation call (0 to 1 or NA for not covered), probe name (e.g. cg21870274)
+
+[Reference CpGs](MARLIN_realtime/files/marlin_v1.features.RData)
+
 Usage (specific CUDA device 1): `CUDA_VISIBLE_DEVICES=1 Rscript MARLIN_prediction.R`
 
