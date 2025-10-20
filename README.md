@@ -31,11 +31,12 @@ foreach (1.5.2)
 
 Conda environment setup:
 
-````
+```
 conda create --name marlin -c conda-forge r-base=4.1.3
 conda activate marlin
 conda install -c conda-forge r-keras=2.13 r-tensorflow=2.13 tensorflow-gpu=2.13 python=3.10
 ```
+
 The official Oxford Nanopore Technologies tool to extract DNA modifications [modkit](https://github.com/nanoporetech/modkit)
 
 ## Real-time classification
