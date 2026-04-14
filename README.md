@@ -21,6 +21,8 @@ hg38 and t2t human genome assemblies are now supported, please find probes coord
 
 ## Requirements
 
+(tested versions)
+
 R (4.1.3)
 
 R package dependencies:
@@ -28,16 +30,20 @@ keras (2.13.0)
 data.table (1.14.2)
 doParallel (1.0.17)
 foreach (1.5.2)
+openxlsx (4.2.5.2)
+
+conda or python environment with compatible tensorflow installed
 
 Conda environment setup:
 
 ```
-conda create --name marlin -c conda-forge r-base=4.1.3
+conda create --name marlin -c conda-forge r-base r-keras=2.13 r-tensorflow=2.13 tensorflow-gpu=2.13 python=3.10 r-data.table r-doparallel r-foreach r-openxlsx
 conda activate marlin
-conda install -c conda-forge r-keras=2.13 r-tensorflow=2.13 tensorflow-gpu=2.13 python=3.10
 ```
 
 The official Oxford Nanopore Technologies tool to extract DNA modifications [modkit](https://github.com/nanoporetech/modkit)
+
+[samtools](https://www.htslib.org)
 
 ## Real-time classification
 
