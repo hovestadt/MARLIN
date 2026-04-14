@@ -65,12 +65,12 @@ ONT_sample_for_pred.mtx <- do.call(rbind, ONT_sample_for_pred.list)
 pred <- model %>% predict(ONT_sample_for_pred.mtx)
 
 # load annotation
-class_anno <- read.xlsx("Methylation_classes_annotation.xlsx")
+class_anno <- read.xlsx("MARLIN_realtime/files/marlin_v1.class_annotations.xlsx")
 class_anno <- class_anno[order(class_anno$model_id), ]
                                     
 # set rownames and colnames
 rownames(pred) <- names(ONT_sample_for_pred.list)
-colnames(pred) <- class_anno$Methylation.class
+colnames(pred) <- class_anno$class_name_current
 
 # save predictions
 save(pred,  file = "predictions.RData")
