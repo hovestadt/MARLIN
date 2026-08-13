@@ -18,7 +18,7 @@ Before running MARLIN:
 - install samtools
 - install R and packages keras/tensorflow, data.table, openxlsx
 - download hg19 reference genome from UCSC, rename hg19.fa, place in MARLIN_realtime/files directory
-- download MARLIN model from Dropbox, place in MARLIN_realtime/files directory
+- download MARLIN model from Zenodo, place in MARLIN_realtime/files directory
 - unpack probe bed file in MARLIN_realtime/files
 
 Start nanopore sequencing run:
